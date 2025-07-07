@@ -2,9 +2,9 @@
   "name": "qmail-server",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/Jayavignesh-creator/qmail-server/issues"
   },
-  "homepage": "https://github.com/Jayavignesh-creator/qmail-server#readme"
+  "homepage": "https://github.com/Jayavignesh-creator/qmail-server#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "nodemailer": "^7.0.4"
+  },
+  "type": "module"
 }
